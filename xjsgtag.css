@@ -463,3 +463,12 @@ background: linear-gradient(180deg, rgba(233,197,0,1) 0%, rgba(48,31,3,1) 100%);
 .menu.active {
     display: block;
 }
+
+.icon {
+    font-family: 'Material Icons';
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+    vertical-align: -5px; /* Aligns the icon vertically */
+    margin-right: 5px; /* Optional: adds some space between the icon and the text */
+}
