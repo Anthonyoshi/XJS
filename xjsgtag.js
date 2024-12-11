@@ -1,17 +1,17 @@
 // Get modal elements
 const vixModal = document.getElementById("vixModal");
 const ayoshiModal = document.getElementById("ayoshiModal");
-const rosaModal = document.getElementById("rosaModal");
+const rosaModal = document.getElementById("voidModal");
 
 // Get button elements
 const openVix = document.getElementById("vixbtn");
 const openAyoshi = document.getElementById("ayoshibtn");
-const openRosa = document.getElementById("rosabtn");
+const openRosa = document.getElementById("voidbtn");
 
 // Get close elements
 const closeVix = document.getElementById("closeVix");
 const closeAyoshi = document.getElementById("closeAyoshi");
-const closeRosa = document.getElementById("closeRosa");
+const closeRosa = document.getElementById("closeVoid");
 
 // Open modals
 openVix.onclick = function() {
@@ -45,7 +45,7 @@ window.onclick = function(event) {
         vixModal.style.display = "none";
     } else if (event.target === ayoshiModal) {
         ayoshiModal.style.display = "none";
-    } else if (event.target === rosaModal) {
+    } else if (event.target === voidModal) {
         rosaModal.style.display = "none";
     }
 }
