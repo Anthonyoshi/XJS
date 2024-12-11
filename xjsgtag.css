@@ -261,7 +261,7 @@ background: linear-gradient(180deg, rgba(233,197,0,1) 0%, rgba(48,31,3,1) 100%);
     float: right;
 }
 
-.rosabtn {
+.voidbtn {
     Background: White;
     font-family: "Prompt", sans-serif;
     font-weight: 700;
@@ -271,8 +271,8 @@ background: linear-gradient(180deg, rgba(233,197,0,1) 0%, rgba(48,31,3,1) 100%);
     float: right;
 }
 
-.rosabtn:hover,
-.rosabtn:focus{
+.voidbtn:hover,
+.voidbtn:focus{
     Background: #ededed;
     font-family: "Prompt", sans-serif;
     font-weight: 700;
