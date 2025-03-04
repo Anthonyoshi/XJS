@@ -1,111 +1,169 @@
 <head>
-<title>XJS: Gorilla Tag</title>    
-<link rel="icon" type="image/x-icon" href="XJSLogoTransparent.png">
-<link rel="stylesheet" href="xjsgtag.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">    
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XJS: Gorilla Tag</title>
+    <link rel="icon" type="image/x-icon" href="XJSLogoTransparent.png">
+    <link rel="stylesheet" href="xjsgtag.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,100,1,200&display=swap" />
 </head>
-
-
 <body> 
-    <div class="menu-container" align="right">
-        <div class="hamburger" onclick="toggleMenu()">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        <nav class="menu" id="menu">
-            <ul>
-                <li><a href="index.html"><span class="icon">home</span>Home</a></li>
-                <li><a href="xjsgtag.html">Gorilla Tag</a></li>
-                <li><a href="#socials"><span class="icon">share</span>Socials</a></li>
-                <li><a href="#faq"><span class="icon">help</span>FAQ</a></li>
-            </ul>
-        </nav>
-    </div>
+    <div class="navbar">
+        <!-- Logo Section with dropdown on hover -->
+        <div class="logo">
+            <img src="XJSLogoTransparent.png" alt="Logo" id="logo">
+            <i class="material-symbols-rounded dropdown-arrow">expand_more</i> <!-- Dropdown arrow -->
+            <div class="dropdown-content">
+                <!-- XJS Section in the dropdown -->
+                <div class="xjs-section">
+                    <h2 class="gorillatagmenu">Discover</h2>
+                    <div class="button-with-icon">
+                        <i class="material-symbols-rounded">home</i>
+                        <button class="gorillatagmenu"<a href="index.html">Home</button>
+                    </div>
+                    <div class="button-with-icon">
+                        <i class="material-symbols-rounded">public</i>
+                        <button class="gorillatagmenu">Socials</button>
+                    </div>
+                    <div class="button-with-icon">
+                        <i class="material-symbols-rounded">help_center</i>
+                        <button class="gorillatagmenu">FAQ</button>
+                    </div>
+                </div>
 
-<div id="vixModal" class="modal">
-    <img class="vixmodalimg" src="XJSVixSiteImg.png" height="427" width="427">
-    <div class="modal-content">
-        <span class="close" id="closeVix">&times;</span>
-        <h1 class="mainmodalname">Vix</h1>
-        <p class="modaltext">Primary: Walls</p>
-        <p class="modaltext">This is the content for the Vix modal.</p>
-        <br>
-        <img class="yt" src="yt_icon_mono_light.png" width="2.4%">
-        <a class="modallink" href="https://www.youtube.com/@Thereal_vix">Vix's YouTube</a>
-        <br>
-        <img class="tiktok" src="TikTok_alt_symbol.png" width="2%">
-        <a class="modallink" href="https://www.tiktok.com/@thereal_vix?_t=8qUqbJyjjHK&_r=1">Vix's TikTok</a>
-    </div>
+                <!-- Vertical Line separating XJS and Games Sections -->
+                <div class="vertical-line"></div>
+
+                <!-- Games Section in the dropdown -->
+                <div class="games-section">
+                    <h2 class="gorillatagmenu">Games</h2>
+                    <br>
+                    <div class="button-with-icon">
+                        <img class="smollogo" src="gtagsmollogo.png">
+                        <button class="gorillatagmenu"><a href="xjsgtag.html">Gorilla Tag</button>
+                    </div>
+                    <div class="button-with-icon">
+                        <img class="smollogo" src="orionsmollogo.png">
+                        <button class="gorillatagmenu"><a href="xjsorion.html">Orion Drift</button>
+                    </div>
+                    <div class="button-with-icon">
+                        <img class="smollogo" src="fortnitesmollogo.png">
+                        <button class="gorillatagmenu">Fortnite</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </div>
 
+    <div id="vixModal" class="modal">
+        <img class="vixmodalimg" src="XJSVixSiteImg.png" height="427" width="427">
+        <div class="modal-content">
+            <span class="close" id="closeVix">&times;</span>
+            <h1 class="mainmodalname">Vix</h1>
+            <p class="modaltext">This is the content for the Vix modal.</p>
+            <br>
+            <img class="yt" src="yt_icon_mono_light.png" width="2.4%">
+            <a class="modallink" href="https://www.youtube.com/@Thereal_vix">Vix's YouTube</a>
+            <br>
+            <img class="tiktok" src="TikTok_alt_symbol.png" width="2%">
+            <a class="modallink" href="https://www.tiktok.com/@thereal_vix?_t=8qUqbJyjjHK&_r=1">Vix's TikTok</a>
+        </div>
+    </div>
 
-<div id="ayoshiModal" class="modal">
+    <div id="ayoshiModal" class="modal">
         <img class="ayoshimodalimg" src="XJSAyoshiSiteImg.png" height="427" width="427">
         <div class="modal-content">
-            <span class="close" id="closeAyoshi">&times;
-</span>
-        <h1 class="mainmodalname">Anthonyoshi</h1>
-        <p class="modaltext">Primary: Hybrid</p>
-        <p class="modaltext">This is the content for the Ayoshi modal.</p>
-        <img class="yt" src="yt_icon_mono_light.png" width="2.4%">
-        <a class="modallink" href="https://www.youtube.com/@AnthonyoshiOfficial">Anthonyoshi's YouTube</a>
-        <br>
-        <img class="tiktok" src="TikTok_alt_symbol.png" width="2%">
-        <a class="modallink" href="https://www.tiktok.com/@anthonyoshi_?_t=8qUrgl1bkkw&_r=1">Anthonyoshi's TikTok</a>
+            <span class="close" id="closeAyoshi">&times;</span>
+            <h1 class="mainmodalname">Anthonyoshi</h1>
+            <p class="modaltext">This is the content for the Ayoshi modal.</p>
+            <img class="yt" src="yt_icon_mono_light.png" width="2.4%">
+            <a class="modallink" href="https://www.youtube.com/@AnthonyoshiOfficial">Anthonyoshi's YouTube</a>
+            <br>
+            <img class="tiktok" src="TikTok_alt_symbol.png" width="2%">
+            <a class="modallink" href="https://www.tiktok.com/@anthonyoshi_?_t=8qUrgl1bkkw&_r=1">Anthonyoshi's TikTok</a>
+        </div>
     </div>
-</div>
 
-<div id="voidModal" class="modal">
+    <div id="rosaModal" class="modal">
         <img class="rosamodalimg" src="XJSRosaSiteImg.png" height="427" width="427">
         <div class="modal-content">
-            <span class="close" id="closeVoid">&times;</span>
-        <h1 class="mainmodalname">Void</h1>
-        <p class="modaltext">This is the content for the Void modal.</p>
+            <span class="close" id="closeRosa">&times;</span>
+            <h1 class="mainmodalname">N/A</h1>
+            <p class="modaltext">This could be you!</p>
+        </div>
     </div>
-</div>
-    
-<center><img class="gorillataglogo" src="IMG_6879.PNG" width="209" height="100.5"></center>
-<br><br>
-<center><p class="gorillatagfont">Gorilla Tag is a VR Game which you can walk, climb, and swing around with your hands (created by Another Axiom LLC).</p>
-<p class="gorillatagfont">Gorilla Tag Comp (GTC) is where you gain MMR and the more MMR you gain, the higher the rank.</p><img class="mmrdistimg" src="MMRdistribution.png" width="65%">
-<p class="smalltext">MMR Distribution taken from <a class="smalllink" href="https://gorillatagcomp.com/rankedinfo">here</a>.</p>
-<br><br>
-<p class="gorillatagfont">Currently, XJS is looking for people to join their Gorilla Tag Competitive (GTC) team. </p></center>
-<br><br>
-<center><p class="gorillatagfont">Team v. Team Video Showcases Coming Soon!</p></center>
-    
-<br><br>
-    
-<center><p class="memberstext">Members</p></center>
-<div class="container">
-<div class="member1div">
-    <img class="vixsinglecosmetic" src="XJSVixSingleCosmetic.png" height="100" width="100">
-    <p class="nametitle" align="right">Vix</p>
-    <button class="vixbtn" id="vixbtn">More Info</button></div>
-    
-<div class="member2div">
-    <img class="ayoshisinglecosmetic" src="XJSAyoshiSingleCosmetic.png" height="100" width="100">
-    <p class="nametitle" align="right">Anthonyoshi</p>
-    <button class="ayoshibtn" id="ayoshibtn">More Info</button>
-</div>
-    
-<div class="member3div">
-    <img class="rosasinglecosmetic" src="XJSRosaSingleCosmetic.png" height="100" width="100">
-    <p class="nametitle" align="right">Void</p>
-    <button class="voidbtn" id="voidbtn">More Info</button>
-    </div>
-</div>
-    
-<br><br>
-    
-<center><iframe class="application" src="https://forms.gle/MvBiKVZtwjM8U8wB9" width="800" height="600" frameborder="0" marginheight="0" marginwidth="0">Application Loading...</iframe></center>
-    <br>
-<footer><center><p class="advisement">This website is not affiliated with Gorilla Tag or Another Axiom LLC and is not endorsed or otherwise sponsored by Another Axiom LLC.</p><p>Portions of the materials contained herein are the property of Another Axiom LLC. © 2024 Another Axiom LLC.</p></center></footer>
 
-<script src="xjsgtag.js"></script>
+    <img class="gorillataglogo" src="gtaglogo.PNG" width="500px" float="right">
+    <br><br>
+    <center><div class="infotextbox"><p class="gorillatagfontmain">Gorilla Tag is a VR Game which you can walk, climb, and swing around with your hands (created by Another Axiom LLC).</p></div></center>
+    <center>
+        <div class="mmrtextbox">
+            <p class="gorillatagfont">Gorilla Tag Comp (GTC) is where you gain MMR and the more MMR you gain, the higher the rank.</p>
+        </div>
+        <img class="mmrdistimg" src="MMRdistribution.png" width="65%">
+    </center>
+    <center>
+    <p class="smalltext">MMR Distribution taken from <a class="smalllink" href="https://gorillatagcomp.com/rankedinfo">here</a>.</p>
+    <br><br>
+    <p class="gorillatagfont">Currently, XJS is looking for people to join their Gorilla Tag Competitive (GTC) team.</p>
+        </center>
+    <br><br>
+    <center>
+        <div class="gallery-container">
+            <h1 class="gorillatagfont">Media Gallery</h1>
+            <button class="arrow left" onclick="scrollLeft()">
+                <span>&#10094;</span>
+            </button>
+            <div class="gallery">
+                <img src="https://scontent-atl3-3.oculuscdn.com/v/t64.5771-25/38974791_1564822723967140_7556114744255897318_n.jpg?stp=dst-jpg_q92_s1440x1440_tt6&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=fPCZFC4pv30Q7kNvgF-DPuT&_nc_oc=Adgrj1YYUeH9h5BV4HY4sxRSx2yhrmMgGPxGStqzRx3CaF0Cc-2WCGqdCTyPUzxlKO8&_nc_zt=3&_nc_ht=scontent-atl3-3.oculuscdn.com&oh=00_AYCzzR3ZwQ7CYCb3Zxu_2QBDMKcmGDZOMKKg8n_BOFTEkw&oe=67C92019" alt="Placeholder Image" onclick="openImageModal(this)">
+                <img src="https://scontent-atl3-3.oculuscdn.com/v/t64.5771-25/38974791_1564822723967140_7556114744255897318_n.jpg?stp=dst-jpg_q92_s1440x1440_tt6&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=fPCZFC4pv30Q7kNvgF-DPuT&_nc_oc=Adgrj1YYUeH9h5BV4HY4sxRSx2yhrmMgGPxGStqzRx3CaF0Cc-2WCGqdCTyPUzxlKO8&_nc_zt=3&_nc_ht=scontent-atl3-3.oculuscdn.com&oh=00_AYCzzR3ZwQ7CYCb3Zxu_2QBDMKcmGDZOMKKg8n_BOFTEkw&oe=67C92019" alt="Placeholder Image" onclick="openImageModal(this)">
+                <img src="https://scontent-atl3-3.oculuscdn.com/v/t64.5771-25/38974791_1564822723967140_7556114744255897318_n.jpg?stp=dst-jpg_q92_s1440x1440_tt6&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=fPCZFC4pv30Q7kNvgF-DPuT&_nc_oc=Adgrj1YYUeH9h5BV4HY4sxRSx2yhrmMgGPxGStqzRx3CaF0Cc-2WCGqdCTyPUzxlKO8&_nc_zt=3&_nc_ht=scontent-atl3-3.oculuscdn.com&oh=00_AYCzzR3ZwQ7CYCb3Zxu_2QBDMKcmGDZOMKKg8n_BOFTEkw&oe=67C92019" alt="Placeholder Image" onclick="openImageModal(this)">
+                <img src="https://scontent-atl3-3.oculuscdn.com/v/t64.5771-25/38974791_1564822723967140_7556114744255897318_n.jpg?stp=dst-jpg_q92_s1440x1440_tt6&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=fPCZFC4pv30Q7kNvgF-DPuT&_nc_oc=Adgrj1YYUeH9h5BV4HY4sxRSx2yhrmMgGPxGStqzRx3CaF0Cc-2WCGqdCTyPUzxlKO8&_nc_zt=3&_nc_ht=scontent-atl3-3.oculuscdn.com&oh=00_AYCzzR3ZwQ7CYCb3Zxu_2QBDMKcmGDZOMKKg8n_BOFTEkw&oe=67C92019" alt="Placeholder Image" onclick="openImageModal(this)">
+                <!-- Add more images as needed -->
+            </div>
+            <button class="arrow right" onclick="scrollRight()">
+                <span>&#10095;</span>
+            </button>
+        </div>
+    </center>
     
+    <br><br>
+    
+    <center><p class="memberstext">Members</p></center>
+    <div class="container">
+        <div class="member1div">
+            <img class="vixsinglecosmetic" src="XJSVixSingleCosmetic.png" height="120" width="120">
+            <p class="nametitle" align="right">Vix</p>
+            <button class="vixbtn" id="vixbtn">More Info</button>
+        </div>
+        
+        <div class="member2div">
+            <img class="ayoshisinglecosmetic" src="XJSAyoshiSingleCosmetic.png" height="120" width="120">
+            <p class="nametitle" align="right">Anthonyoshi</p>
+            <button class="ayoshibtn" id="ayoshibtn">More Info</button>
+        </div>
+        
+        <div class="member3div">
+            <img class="rosasinglecosmetic" src="XJSRosaSingleCosmetic.png" height="120" width="120">
+            <p class="nametitle" align="right">N/A</p>
+            <button class="voidbtn" id="rosabtn">More Info</button>
+        </div>
+    </div>
+    
+    <br><br>
+    
+    <center><iframe class="application" src="https://forms.gle/MvBiKVZtwjM8U8wB9" width="800" height="600" frameborder="0" marginheight="0" marginwidth="0">Application Loading...</iframe></center>
+    <br>
+    <footer>
+        <center>
+            <p class="advisement">This website is not affiliated with Gorilla Tag or Another Axiom LLC and is not endorsed or otherwise sponsored by Another Axiom LLC.</p>
+            <p>Portions of the materials contained herein are the property of Another Axiom LLC. © 2025 Another Axiom LLC.</p>
+        </center>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeImageModal()">&times;</span>
+        <img class="imagemodal-content" id="modalImage">
+    </div>
+
+    <script src="xjsgtag.js"></script>
 </body>
