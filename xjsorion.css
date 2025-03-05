@@ -1,0 +1,684 @@
+.orionfont {
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.lowerorionfont {
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    padding-top: 400px;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.lowererorionfont {
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    padding-top: 600px;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.oriondriftmenu {
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.oriondriftmenu2 {
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    margin-top: -200px;
+}
+
+body{
+    background: linear-gradient(
+          270deg,
+          rgba(0,0,0, 0.5) 0%,
+          rgba(0,0,0, 1) 100%
+    ),
+        url("orionxjsbackground.png");
+      background-size: cover;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+    
+.oriondriftlogo {
+    padding-top: 30px;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+    float: right;
+    padding-right: 100px;
+    padding-top: 150px;
+}
+
+.orionranksdiv {
+    background: #1e1e1e;
+    padding: 10px;
+    border-radius: 15px;
+    width: 900px;
+    box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.25);
+      animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.orionrankdistribution {
+    margin-top: 10px;
+    background: #1e1e1e;
+    padding: 10px;
+    border-radius: 15px;
+    width: 900px;
+    float: right;
+    box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.25);
+      animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.smalltext {
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.smalllink {
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: #4754de;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.driftballyoutube {
+    border-radius: 17px;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+    box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.25);
+    margin-top: 40px;
+    margin-left: 50px
+}
+
+.member1div {
+background: rgb(38,9,61);
+background: linear-gradient(180deg, rgba(38,9,61,1) 0%, rgba(102,14,23,1) 100%);
+    border-radius: 10px;    
+    flex: 1;
+    margin: 25px;
+    padding: 40px;
+    border: 2px solid #000;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+    float: right;
+    position: absolute;
+    width: 450px;
+    right: 30px;
+    margin-top: -100px;
+}
+
+.nametitle {
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+.mainmodalname {
+    font-family: "Prompt", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+    
+.member2div {
+background: rgb(0,174,173);
+background: linear-gradient(180deg, rgba(0,174,173,1) 0%, rgba(4,27,65,1) 100%);0%, rgba(102,14,23,1) 100%);
+    border-radius: 10px;    
+    flex: 1;
+    margin: 25px;
+    padding: 40px;
+    border: 2px solid #000;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+    float: right;
+    position: absolute;
+    margin-top: 250px;
+    right: 30px;
+    width: 450px;
+    margin-top: 120px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+    
+.memberboxes {
+    display: flex;
+    width: 400px;
+    float: right;
+    padding-right: 0px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.memberstext {
+    font-size: 40px;
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+    float: right;
+    padding-right: 90px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.vixbtn {
+    Background: White;
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 10px;
+    border: solid;
+    float: right;
+}
+
+.vixbtn:hover,
+.vixbtn:focus{
+    Background: #ededed;
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 10px;
+    border: solid;
+    float: right;
+}
+    
+.ayoshibtn {
+    Background: White;
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 10px;
+    border: solid;
+    float: right;
+}
+
+.ayoshibtn:hover,
+.ayoshibtn:focus{
+    Background: #ededed;
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 10px;
+    border: solid;
+    float: right;
+}
+
+.gallerytext {
+    font-size: 40px;
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+    float: left;
+    padding-left: 90px;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #071117;
+    padding: 10px 20px;
+    position: relative;
+    justify-content: flex-start; /* Align all content to the left */
+      animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+    border-radius: 15px;
+}
+
+/* Logo Styling */
+.logo {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space between logo and menu */
+}
+
+/* Logo Image Styling */
+.logo img {
+    height: 40px;
+    margin-right: 10px; /* Space between logo and arrow */
+}
+
+/* Rotate the dropdown arrow when hovering */
+.logo:hover .dropdown-arrow {
+    transform: rotate(180deg); /* Rotate the arrow to point up when hovered */
+}
+
+/* Dropdown Menu Styling */
+.dropdown-content {
+    display: none;  /* Initially hidden */
+    position: absolute;
+    top: 40px; /* Position below the logo */
+    left: 0;
+    min-width: 350px; /* Increase the width to accommodate both sections */
+    z-index: 1;
+    background-color: rgba(70, 70, 70, 0.6); /* Semi-transparent background */
+    border-radius: 5px;
+    backdrop-filter: blur(8px); /* Apply blur effect to the background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+    padding: 10px;
+}
+
+/* Show the dropdown only when hovering over the logo */
+.logo:hover .dropdown-content {
+    display: flex; /* Make dropdown visible when logo is hovered */
+}
+
+/* XJS Section */
+.xjs-section {
+    margin-left: 10px;
+    margin-right: 20px; /* Space between XJS and vertical line */
+    color: white;
+}
+
+.xjs-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Flexbox for the icons and buttons */
+.button-with-icon {
+    display: flex;
+    align-items: center; /* Align icon and text horizontally */
+    float: left;
+    margin-bottom: 5px;
+}
+
+.button-with-icon i, .button-with-icon img {
+    font-size: 20px; /* Smaller icon size */
+    color: #ffffff; /* Light color for the icons */
+    margin-right: 8px; /* Space between icon and button text */
+    height: 20px; /* Set height for the small logos */
+    width: auto; /* Maintain aspect ratio for the logos */
+}
+
+/* Material Icons Styling */
+.dropdown-arrow {
+    font-size: 24px; /* Adjust the size of the arrow */
+    color: white; /* Set the color of the arrow to match the theme */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for rotation */
+    transform: rotate(0deg); /* Start with the icon pointing down */
+}
+
+/* Rotate the dropdown arrow when hovering */
+.logo:hover .dropdown-arrow {
+    transform: rotate(180deg); /* Rotate the arrow to point up when hovered */
+}
+
+.xjs-section button {
+    display: block;
+    padding: 8px 12px;
+    margin: 5px 0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background: transparent; /* Remove button background */
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Full width buttons */
+}
+
+/* Hover effect for buttons in dropdown */
+.xjs-section button:hover, .games-section button:hover {
+    background-color: rgba(167, 167, 167, 0.45); /* Optional background effect */
+}
+
+/* Vertical Line separating XJS and Games Section */
+.vertical-line {
+    width: 1px;
+    background-color: #6e6e6e;
+    height: auto;
+    margin: 0 20px; /* Space between XJS and Games */
+}
+
+/* Games Section */
+.games-section {
+    color: white;
+    display: flex;  /* Use flexbox to display buttons horizontally */
+    justify-content: flex-start;  /* Align buttons to the left */
+    flex-wrap: wrap;  /* Allow buttons to wrap if needed (on small screens) */
+}
+
+.games-section h2 {
+    font-size: 18px; /* Set font size for Games section header */
+}
+
+/* Flexbox for the icons and buttons in the Games section */
+.games-section .button-with-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.games-section .button-with-icon i, .games-section .button-with-icon img {
+    font-size: 20px; /* Smaller icon size */
+    color: #ffffff; /* Light color for the icons */
+    margin-right: 8px; /* Space between icon and button text */
+    height: 20px; /* Set height for the small logos */
+    width: auto; /* Maintain aspect ratio for the logos */
+}
+
+.games-section button {
+    display: inline-block;  /* Ensures buttons behave like inline elements */
+    padding: 8px 12px;
+    margin: 5px 0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background: transparent; /* Remove button background */
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Full width buttons */
+}
+
+        .gallery-container {
+            position: relative;
+            width: 780px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 0px; /* Remove padding */
+            float: left;
+          animation: fadeIn 3s;
+        -webkit-animation: fadeIn 3s;
+        -moz-animation: fadeIn 3s;
+        -o-animation: fadeIn 3s;
+        -ms-animation: fadeIn 3s;
+        }
+
+
+        .gallery {
+            display: flex;
+            flex-direction: column; /* Stack rows vertically */
+            scroll-snap-type: x mandatory;
+            overflow-x: scroll;
+            scroll-behavior: smooth;
+            -ms-overflow-style: none;  /* Internet Explorer 10+ */
+            scrollbar-width: none;  /* Firefox */
+            margin-left: 40px;
+            float: left;
+            padding: 10px;
+        }
+
+        .gallery::-webkit-scrollbar {
+            display: none;  /* Safari and Chrome */
+        }
+
+        .imagesrow1, .imagesrow2 {
+            display: flex; /* Create horizontal rows */
+        }
+
+        .imagesrow2 {
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: calc(33.33% - 20px);
+            height: auto;
+            scroll-snap-align: center;
+            margin: 0 10px;
+            border-radius: 15px;
+            transition: outline 0.3s, outline-offset 0.3s;
+            width: 45%;
+        }
+
+        .gallery img:hover {
+            outline: 5px solid #bababa;
+            outline-offset: 5px;
+            border-radius: 10px;
+        }
+
+        /* Add the image modal styles */
+        #imageModal {
+            display: none; 
+            position: fixed; 
+            z-index: 2; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: hidden; 
+            background-color: rgba(0, 0, 0, 0.8); 
+            backdrop-filter: blur(5px); /* Add blur to the background */
+            border-radius: 0px;
+        }
+
+        #imageModal img {
+            display: block;
+            margin: 40px auto;
+            width: 70%;
+        }
+
+        .imagemodal-content {
+            margin: 15% auto; 
+            width: 80%; 
+            border-radius: 50px;
+        }
+
+        /* Style for modal open state */
+        .modal-open {
+            overflow: hidden;
+        }
+
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 25px;
+            color: white;
+            font-size: 35px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.application {
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5x;
+    border-color: black;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+    box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.25);
+}
